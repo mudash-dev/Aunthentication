@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Authentication</string>
+    <string name="Email">Enter Email Address</string>
+    <string name="InputPassword">Enter Password</string>
+    <string name="LogIn">Login</string>
+    <string name="SignUp">Don\'t have an account?Sign Up Here..</string>
+    <string name="Forgot">Forgot Password?</string>
+</resources>
