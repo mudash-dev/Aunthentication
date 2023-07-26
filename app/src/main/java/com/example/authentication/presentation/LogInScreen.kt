@@ -1,8 +1,10 @@
 package com.example.authentication.presentation
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -96,15 +98,6 @@ fun LogInScreen() {
             )
         }
         item {
-            TextButton(onClick = { /*TODO*/ }) {
-                Text(
-                    text = stringResource(id = R.string.Forgot),
-                    textAlign = TextAlign.End,
-                    textDecoration = TextDecoration.Underline,
-                )
-            }
-        }
-        item {
             Spacer(modifier = Modifier.height(16.dp))
         }
         item {
@@ -117,15 +110,34 @@ fun LogInScreen() {
             }
         }
         item {
-            Spacer(modifier = Modifier.height(32.dp))
+            Row(
+                modifier = Modifier.fillMaxSize(),
+                horizontalArrangement = Arrangement.Center,
+            ) {
+                TextButton(onClick = { /*TODO*/ }) {
+                    Text(
+                        text = stringResource(id = R.string.Forgot),
+                        textAlign = TextAlign.Justify,
+                        textDecoration = TextDecoration.Underline,
+                    )
+                }
+            }
         }
         item {
-            TextButton(onClick = { /*TODO*/ }) {
-                Text(
-                    text = stringResource(id = R.string.SignUp),
-                    textAlign = TextAlign.Center,
-                    textDecoration = TextDecoration.Underline,
-                )
+            Spacer(modifier = Modifier.height(16.dp))
+        }
+        item {
+            Row(
+                modifier = Modifier.fillMaxSize(),
+                horizontalArrangement = Arrangement.Center,
+            ) {
+                TextButton(onClick = { /*TODO*/ }) {
+                    Text(
+                        text = stringResource(id = R.string.SignUp),
+                        textAlign = TextAlign.Center,
+                        textDecoration = TextDecoration.Underline,
+                    )
+                }
             }
         }
     }
