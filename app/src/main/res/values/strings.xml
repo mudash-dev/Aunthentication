@@ -5,4 +5,7 @@
     <string name="LogIn">Login</string>
     <string name="SignUp">Don\'t have an account?Sign Up Here..</string>
     <string name="Forgot">Forgot Password?</string>
+    <string name="Username">Enter  a Username\n</string>
+    <string name="SignUpbtn">SignUp</string>
+    <string name="SignIn">Already have an account?Sign in..</string>
 </resources>
