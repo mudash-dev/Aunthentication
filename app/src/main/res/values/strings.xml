@@ -8,4 +8,5 @@
     <string name="Username">Enter  a Username\n</string>
     <string name="SignUpbtn">SignUp</string>
     <string name="SignIn">Already have an account?Sign in..</string>
+    <string name="Reset">Reset</string>
 </resources>

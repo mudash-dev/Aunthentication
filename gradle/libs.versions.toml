@@ -15,6 +15,7 @@ compose-material3 = { module = "androidx.compose.material3:material3", version.r
 compose-material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "compose-material-icons-extended" }
 #implementation 'androidx.compose.ui:ui-graphics'
 compose-ui-graphics = {module = "androidx.compose.ui:ui-graphics", version.ref = "compose"}
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version = "1.6.1" }
 [plugins]
 android-application = { id = "com.android.application", version.ref = "gradle"}
 android-library = { id = "com.android.library", version.ref = "gradle" }

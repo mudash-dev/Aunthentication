@@ -3,44 +3,21 @@ package com.example.authentication
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
-import androidx.compose.ui.Modifier
-import com.example.authentication.presentation.LogInScreen
-import com.example.authentication.ui.theme.AuthenticationTheme
+import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : ComponentActivity() {
+class MainActivity :  AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            AuthenticationTheme {
-                // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background,
-                ) {
-                    LogInScreen()
-                }
-            }
+            /** AuthenticationTheme {
+             // A surface container using the 'background' color from the theme
+             Surface(
+             modifier = Modifier.fillMaxSize(),
+             color = MaterialTheme.colorScheme.background,
+             ) {
+             LogInScreen()
+             }
+             } **/
         }
     }
 }
-
-/**
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
- Text(
- text = "Hello $name!",
- modifier = modifier,
- )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
- AuthenticationTheme {
- Greeting("Android")
- }
-}
-**/
